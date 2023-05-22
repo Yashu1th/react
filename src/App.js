@@ -11,7 +11,7 @@ export default function App() {
     const YOUR_APP_ID = "88a9849e";
     const YOUR_APP_KEY = "04922719fa045f73aca6159163a847bc";
     fetch(
-      `https://api.edamam.com/search?q=${search}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=12&calories=591-722&health=alcohol-free`
+      `https://api.edamam.com/search?q=${search}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=21&calories=591-722&health=alcohol-free`
     )
       .then((response) => response.json())
       .then((data) => setData(data.hits));
