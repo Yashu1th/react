@@ -1,11 +1,12 @@
 import React from "react";
+// import "./style.css";
 
 const Products = ({ data }) => {
   return (
     <div>
-      <div className="row">
+      <div className="row ps-5 pb-5">
         {data.map((data) => (
-          <div className="col-md-4">
+          <div className="col-md-4 ps-5 pb-5">
             <div class="card" style={{ width: "18rem" }}>
               <img
                 class="card-img-top"
@@ -20,7 +21,7 @@ const Products = ({ data }) => {
                     {Math.floor(data.recipe.calories)}
                   </p>
                   <a href="#" class="btn btn-primary">
-                    Buy
+                    Know More
                   </a>
                 </center>
               </div>
@@ -28,6 +29,7 @@ const Products = ({ data }) => {
           </div>
         ))}
       </div>
+      <br />
     </div>
   );
 };
