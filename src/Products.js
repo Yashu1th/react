@@ -4,9 +4,9 @@ import React from "react";
 const Products = ({ data }) => {
   return (
     <div>
-      <div className="row ps-5 pb-5">
+      <div className="row ps-md-5 pb-md-5">
         {data.map((data) => (
-          <div className="col-md-4 ps-5 pb-5">
+          <div className="col-md-4 ps-md-5 pb-md-5">
             <div class="card" style={{ width: "18rem" }}>
               <img
                 class="card-img-top"
