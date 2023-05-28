@@ -1,2 +1,2 @@
 # react
-recipe app 
+recipe searching web application 
